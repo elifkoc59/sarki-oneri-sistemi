@@ -20,3 +20,44 @@ sarki-oneri-sistemi/
 │ └── sarkionerisistemi.ipynb
 ├── README.md
 └── requirements.txt
+
+
+## ⚙️ Kurulum
+
+```bash
+pip install -r requirements.txt
+Nasıl Çalıştırılır
+notebook/sarkionerisistemi.ipynb dosyasını açın.
+
+Adımları takip ederek:
+
+Veriyi yükleyin
+
+Temizleyin (stopword removal, stemming/lemmatization)
+
+TF-IDF ve Word2Vec uygulayın
+
+Benzer şarkıları önerin
+
+Model çıktıları data/, tfidf/, models/ klasörlerinde yer alır.
+
+📚 Kullanılan Veri Seti
+Kaggle - 380,000+ Lyrics from MetroLyrics
+
+Format: CSV, İngilizce şarkı sözleri
+
+Kullanım amacı: Şarkı sözlerinden öneri yapılması
+
+🧪 Kullanılan Kütüphaneler
+pandas
+
+nltk
+
+gensim
+
+matplotlib
+
+scikit-learn
+
+spacy
+
